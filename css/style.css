@@ -1,0 +1,101 @@
+
+
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+.navbar-link:hover{
+ color: #fbb911;
+}
+section{
+    background-color: #f7931e;
+    height: 110vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+ justify-content: space-around;
+}
+
+.cont2{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   justify-content: center;
+    background-color: white;
+    border-radius: 20px;
+
+
+}
+.head{
+     border-radius: 20px 20px 0px 0px; 
+}
+.form{
+   display: flex;
+    flex-direction: column;
+   align-items: center;
+   justify-content: center; 
+       border-radius: 20px;
+}
+.outstation-form input::placeholder{
+       color: white;
+}
+.local-form input::placeholder{
+       color: white;
+}
+.local-form  input,.outstation-form input,.outstation-form select  ,.local-form select{
+    background-color: #0F1A2C;
+    color: white;
+    padding:5px;
+}
+.butt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+ 
+}
+.form-control::placeholder{
+  color: white;
+}
+#outstationBtn:focus{
+  background-color: #f7931e;
+}
+/* Custom Bootstrap primary color override */
+.btn-primary,
+.btn-primary:hover,
+
+.border-primary {
+  background-color: #304275 !important;
+  border-color: #304275 !important;
+  color: #fff !important;
+}
+
+.text-primary{
+  color: #304275 !important;
+}
+
+.border-primary {
+  border-color: #304275 !important;
+}
+  @media (max-width: 996px) {
+.her{
+    height: 120vh;
+}
+  
+  }
+
+.card:hover{
+    animation: slideup 1s  2  ;
+}
+   @keyframes slideup {
+        to{transform: translateY(1%);}
+        
+    }
